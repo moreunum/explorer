@@ -1,0 +1,22 @@
+b zmalloc_get_rss
+commands
+silent
+bt 1
+c
+end
+
+b serverCron
+commands
+silent
+bt 1
+c
+end
+
+b aeProcessEvents
+commands
+silent
+bt 1
+c
+end
+
+c
